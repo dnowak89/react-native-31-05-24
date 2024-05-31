@@ -5,12 +5,8 @@ import { useRouter } from 'expo-router';
 
 export default function HomeScreen() {
   const router = useRouter();
-  const [login, setLogin] = useState({
-    login: "",
-  })
-  const [password, setPassword] = useState({
-    password: "",
-  })
+  const [login, setLogin] = useState("");
+  const [password, setPassword] = useState("");
 
   return (
     <View style={styles.container}>
