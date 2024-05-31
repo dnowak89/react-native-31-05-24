@@ -10,10 +10,10 @@ export default function SecondView() {
     <View style={styles.container}>
       <Text>Ekran 2</Text>
       <View>
-        <Text>Login {params?.login}</Text>
+        <Text>Login {login}</Text>
       </View>
       <View>
-        <Text>Hasło {params?.password}</Text>
+        <Text>Hasło {password}</Text>
       </View>
     </View>
   );
